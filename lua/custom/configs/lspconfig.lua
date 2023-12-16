@@ -7,6 +7,7 @@ local lspconfig = require("lspconfig")
 lspconfig.tsserver.setup {}
 lspconfig.pyright.setup {}
 lspconfig.volar.setup {}
+lspconfig.eslint.setup {}
 
 lspconfig.clangd.setup {
   on_attach = function(client, bufnr)

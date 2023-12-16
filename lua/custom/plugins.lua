@@ -43,7 +43,10 @@ local plugins = {
         "clangd",
         "clang-format",
         "codelldb",
-        
+        "tsserver",
+        "volar",
+        "pyright",
+        "eslint",
       }
     }
   }
